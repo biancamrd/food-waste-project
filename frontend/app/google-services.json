@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "471914704792",
+    "project_id": "my-final-app-ebbe9",
+    "storage_bucket": "my-final-app-ebbe9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:471914704792:android:1e65c2c5d5d709c8e2c5ed",
+        "android_client_info": {
+          "package_name": "com.example.licenta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "471914704792-o7pc9hbjecmli8o2m5cg13o7cq5fs78g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFTMyCIAmTy2-OdXKyq0-3H9syHUhXkUM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "471914704792-o7pc9hbjecmli8o2m5cg13o7cq5fs78g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

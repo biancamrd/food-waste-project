@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.SignInActivity"
+    android:background="@drawable/background"
+    android:alpha="0.8">
+
+    <TextView
+        android:id="@+id/textViewSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="20dp"
+        android:text="Sign In"
+        android:textAlignment="center"
+        android:textColor="#E0F2F1"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSignIn"
+        tools:layout_editor_absoluteX="10dp" >
+
+        <EditText
+            android:id="@+id/etLoginEmail"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:padding="10dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="Email:"
+            />
+
+        <EditText
+            android:id="@+id/etLoginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:padding="10dp"
+            android:ems="10"
+            android:inputType="textPassword"
+            android:hint="Password:"
+          />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Sign In"
+            android:textFontWeight="700"
+            android:textColor="#E0F2F1"
+            android:backgroundTint="#4DB6AC"
+             />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Don't Have and account? Sign Up"
+            android:textColor="#00695C"
+            android:textSize="18sp"
+            android:onClick="goToSigUpAct"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnGoHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOME"
+        android:textColor="#E0F2F1"
+        android:backgroundTint="#4DB6AC"
+        android:onClick="goToHome"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
